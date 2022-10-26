@@ -1,0 +1,83 @@
+.footerContacto {
+    background-color: $colorTerciario;
+  }
+  
+  .textoFantasma {
+    font-size: 100%;
+    &:focus{
+        background-color: $colorPrincipal;
+
+    }
+  }
+  
+  .cajaContacto1 {
+    ul{ 
+        li {
+        padding: 9px;
+        @extend %estiloFooter;
+        list-style-type: none;
+      }
+
+    } 
+}
+  
+  .cajaFormulario {
+    position: relative;
+    @extend %estiloFooter;
+  }
+  
+  .botonSubmit {
+    background-color: $colorPrincipal;
+    font-size: 40%;
+    font-weight: 900;
+    margin-top: 5px;
+    border-radius: 10px;
+    &:hover {
+      background-color: $colorSecundarioClaro;
+    }
+  }
+  
+  
+  .tituloFooter {
+    font-family: "Raleway";
+    font-size: 150%;
+    top: 2vh;
+    color: white;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .tituloHorarios {
+    font-size: 100%;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .horarios {
+        li {
+            list-style-type: none;
+            padding: 7px;
+            font-size: 100%;
+            color: white;
+        }
+}
+  .iconosRedes {
+    display: flex;
+    width: 25px;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    img:hover{
+        transform: scale(1.3);
+        transition: all 0.2s;
+    }
+  }
+
+  .flechaFooter{
+    position: absolute;
+    width: 25px;
+    left: 92vw;
+    z-index: 3;
+  }
+  

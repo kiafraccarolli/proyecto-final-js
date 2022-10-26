@@ -1,0 +1,49 @@
+.mainInfo {
+  background-color: $colorSecundarioClaro;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2rem 2rem;
+  grid-template-areas:
+    "fotoMujer1 fotoMujer2 fotomujer3"
+    "infoMujer1 infoMujer2 infoMujer3";
+}
+.fotoMujer1 {
+  grid-area: "fotoMujer1";
+  background-color: white;
+}
+.fotoMujer2 {
+  grid-area: "fotoMujer2";
+  background-color: white;
+}
+.fotoMujer3 {
+  grid-area: "fotoMujer3";
+  background-color: white;
+}
+.infoMujer1 {
+  grid-area: "infoMujer1";
+  background-color: $colorSecundarioClaro;
+}
+.infoMujer2 {
+  grid-area: "infoMujer2";
+  background-color: $colorSecundarioClaro;
+}
+.infoMujer3 {
+  grid-area: "infoMujer3";
+  background-color: $colorSecundarioClaro;
+}
+.fotoMujer {
+  filter: drop-shadow(15px 20px 8px $colorPrincipal);
+  height: 40vh;
+  border-radius: 15px;
+}
+.infoMujer,
+.infoMujer,
+.infoMujer {
+  h2 {
+    margin-bottom: 3vh;
+    font-size: 120%;
+  }
+  &:hover {
+    background-color: $colorPrincipal;
+    transition: all 1.5s;
+  }
+}

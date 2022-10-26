@@ -1,0 +1,104 @@
+.fotoLogo {
+  border: solid $colorTerciario 0.5vw;
+  filter: drop-shadow(15px 15px 20px #705f47);
+  width: 35vw;
+  border-radius: 15px;
+
+  &:hover {
+    border: 0;
+  }
+}
+
+.divLogo {
+  position: absolute;
+  left: 60vw;
+  top: 18vw;
+  width: 38vw;
+}
+
+.fotoHistoria {
+  border-radius: 15px;
+  width: 85%;
+}
+
+.section1 {
+  background-color: $colorPrincipal;
+  border-bottom: 10px solid #474747;
+}
+
+.section2,
+.section3 {
+  background-color: $colorPrincipal;
+}
+
+.tituloHistoria {
+  font-family: "Raleway";
+  font-size: 150%;
+  font-weight: 900;
+}
+
+.fotoCara {
+  width: 70vw;
+}
+
+.animate__animated,
+.animate__slideInRight {
+  --animate-duration: 3s;
+}
+
+.parrafoIndex {
+  font-size: 120%;
+}
+
+.fraseFinal {
+  font-weight: bold;
+  font-size: 95%;
+  font-family: "Questrial";
+}
+
+.fraseDestacada {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.galeria {
+  background-color: $colorSecundarioClaro;
+}
+
+.tituloGaleria {
+  font-family: "Questrial";
+  color: white;
+  text-shadow: $colorSecundario 2px 2px 2px;
+  animation-iteration-count: infinite;
+}
+
+.cajaChica {
+  background-color: white;
+}
+
+.fotoGaleria {
+  border: #cbdcb5 solid 10px;
+  filter: drop-shadow(15px 15px 10px #705f47);
+  width: 23vw;
+  margin: 1rem;
+  &:hover {
+    transform: scale(0.95);
+    filter: blur(2px);
+    transition: all 0.3s;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10rem;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 600px) {
+  .fotoGaleria {
+    border: #cbdcb5 solid 6px;
+  }
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="belleza, estética, servicios, peinados, cejas, pestañas, manicura">
+        <meta name="description" content="BeautyHome ofrece servicios especializados en diversas áreas estéticas. Pedí ya tu turno a domicilio!">
+        <title>BeautyHome | SERVICIOS</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513298/proyecto-beautyhome/favicon_sldqfc.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+<body>
+    <header>
+        <nav class="navbar position-fixed navbar-expand-lg bg-light row m-0">
+            <div class="container-fluid">
+            <h1 class="navbar-brand col-xxl-6 col-xl-5 col-lg-4"><a href="../index.html">BeautyHome</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll text-center" style="--bs-scroll-height: 400px;">
+                <li class="nav-item ">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./mision-y-vision.html">Misión y Visión</a>
+                </li>
+                <li class="nav-item--active">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#infoContacto"> Contacto</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+     <!-- main -->
+     <section class="row p-0 m-0 pt-5 tituloServicios">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+             <h2 class="mt-3">NUESTRAS ESPECIALIDADES:</h2>
+         <select name="servicios" id="" class=" col-lg-2 col-sm-3 col-6 mb-3 elegirServicios">
+           <option value="pestanas">pestañas</option>
+           <option value="depilacion">depilación</option>
+           <option value="unas">uñas</option>
+           <option value="cejas">cejas</option>
+           <option value="peinados">peinados</option>
+         </select>
+     </div>
+     </section>
+     <section>
+         <div class="row p-0 mx-0 mt-2 d-flex flex-row justify-content-center">
+            <a href="" class="col-lg-3 col-md-7 col-sm-8 col-10 mb-3 mt-3 mr-0 ml-5 p-0  " data-bs-toggle="modal" data-bs-target="#modalCejas"> 
+                <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513299/proyecto-beautyhome/foto-cejas_uw9y8q.png" alt="" class=" fotoServicios wow animate__animated animate__zoomIn"> 
+            </a>
+            <a href="" class="col-lg-3 col-md-7 col-sm-8 col-10 mx-5 my-3 p-0  " data-bs-toggle="modal" data-bs-target="#modalPestanas"> 
+                <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513305/proyecto-beautyhome/foto-pestanas_wdlwjh.png" alt="" class=" fotoServicios wow animate__animated animate__zoomIn" >
+            </a>
+            <a href="" class="col-lg-3 col-md-7 col-sm-8 col-10 my-3 ml-0 p-0  " data-bs-toggle="modal" data-bs-target="#modalUnas"> 
+                <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513304/proyecto-beautyhome/foto-unas_sx8emu.png" alt="" class=" fotoServicios wow animate__animated animate__zoomIn">
+            </a>
+        </div>
+         <div class="row p-0 mx-0 my-2 d-flex flex-row justify-content-center">   
+            <a href="" class="col-lg-3 col-md-7 col-sm-8 col-10 m-3 p-0  " data-bs-toggle="modal" data-bs-target="#modalDepilacion"> 
+                <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513302/proyecto-beautyhome/foto-depilacion_qhmmit.png" alt="" class=" fotoServicios wow animate__animated animate__zoomIn" > 
+            </a>
+            <a href="" class="col-lg-3 col-md-7 col-sm-8 col-10 m-3 p-0  " data-bs-toggle="modal" data-bs-target="#modalPeinados">
+                <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513302/proyecto-beautyhome/foto-peinado_xvizow.png" alt="" class=" fotoServicios wow animate__animated animate__zoomIn " >
+            </a>
+            </div>
+     </section>
+  
+  <!-- Modal cejas-->
+  <div class="modal fade" id="modalCejas" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-Title"> Pedí tu turno ya! - CEJAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-strech justify-content-between">
+            <!-- carrousel -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656868136/proyecto-beautyhome/cejas1_dbq2xn.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656868484/proyecto-beautyhome/foto-cejas_mdpncr.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656867968/proyecto-beautyhome/cejas2_co2zlr.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          <p class="text-center mb-1 mt-2"> Seleccioná el servicio que te quieras realizar:</p>
+          <select name="servicios" id="" class="elegirServicios">
+            <option value="tinteCejas"> tinte de cejas</option>
+            <option value="laminadoCejas"> lainado de cejas</option>
+            <option value="modeladoHilo"> modelado con hilo </option>
+            <option value="tatooHenna"> tatoo con henna </option>
+          </select>  
+          <label for="modal-email" class="form-label justify-content-center text-center"> Ingresá tu mail y nos pondremos en contacto para coordinar la visita:</label>
+            <input type="email" name="form-control" id="modal-email" placeholder="example@mail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn botonEnviar"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- modal pestañas -->
+  <div class="modal fade" id="modalPestanas" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-Title"> Pedí tu turno ya! - PESTAÑAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-strech justify-content-between">
+            <!-- carrousel -->
+            <div id="carouselPestanas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656870259/proyecto-beautyhome/pestanas3_ojpxkh.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656870215/proyecto-beautyhome/pestanas2_gtoqsm.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656872016/proyecto-beautyhome/peinado1_seejmx.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPestanas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPestanas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          <p class="text-center mb-1 mt-2"> Seleccioná el servicio que te quieras realizar:</p>
+          <select name="servicios" id="" class="elegirServicios">
+            <option value="lifting"> lifting de pestañas</option>
+            <option value="extensiones"> extensiones 3D y 4D</option>
+            <option value="retiroPestañas"> retiro </option>
+          </select>    
+          <label for="modal-email" class="form-label justify-content-center text-center"> Ingresá tu mail y nos pondremos en contacto para coordinar la visita:</label>
+            <input type="email" name="form-control" id="modal-email" placeholder="example@mail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn botonEnviar"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal unas -->
+  <div class="modal fade" id="modalUnas" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-Title"> Pedí tu turno ya! - UÑAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-strech justify-content-between">
+            <!-- carrousel -->
+            <div id="carouselUnas" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871779/proyecto-beautyhome/unas1_mxedkj.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871970/proyecto-beautyhome/unas3_kiujic.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871933/proyecto-beautyhome/unas2_neurkg.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselUnas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselUnas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          <p class="text-center mb-1 mt-2"> Seleccioná el servicio que te quieras realizar:</p>
+          <select name="servicios" id="" class="elegirServicios">
+            <option value="semipermanente"> esmaltado semipermanente</option>
+            <option value="esculpidas"> uñas escuplidas</option>
+            <option value="kapping"> kapping gel </option>
+            <option value="tradicional"> manicuría rusa tradicional</option>
+          </select>    
+          <label for="modal-email" class="form-label justify-content-center text-center"> Ingresá tu mail y nos pondremos en contacto para coordinar la visita:</label>
+            <input type="email" name="form-control" id="modal-email" placeholder="example@mail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn botonEnviar"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal depilacion -->
+  <div class="modal fade" id="modalDepilacion" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-Title"> Pedí tu turno ya! - DEPILACIÓN</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-strech justify-content-between">
+            <!-- carrousel -->
+            <div id="carouselDepilacion" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871822/proyecto-beautyhome/depi3_mxferc.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656872155/proyecto-beautyhome/depi1_erkca3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656872087/proyecto-beautyhome/depi2_twjjbe.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDepilacion" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselDepilacion" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          <p class="text-center mb-1 mt-2"> Seleccioná el servicio que te quieras realizar:</p>
+          <select name="servicios" id="" class="elegirServicios">
+            <option value="mediaPierna"> media pierna</option>
+            <option value="axilas"> axilas </option>
+            <option value="rostro"> rostro </option>
+            <option value="cavado"> cavado </option>
+          </select>    
+          <label for="modal-email" class="form-label justify-content-center text-center"> Ingresá tu mail y nos pondremos en contacto para coordinar la visita:</label>
+            <input type="email" name="form-control" id="modal-email" placeholder="example@mail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn botonEnviar"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal depilacion -->
+  <div class="modal fade" id="modalPeinados" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-Title"> Pedí tu turno ya! - PEINADOS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body d-flex flex-column align-items-strech justify-content-between">
+            <!-- carrousel -->
+            <div id="carouselPeinados" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871858/proyecto-beautyhome/peinado2_oce4gz.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656871894/proyecto-beautyhome/peinado3_ybbrwx.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656872087/proyecto-beautyhome/depi2_twjjbe.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeinados" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselPeinados" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          <p class="text-center mb-1 mt-2"> Seleccioná el servicio que te quieras realizar:</p>
+          <select name="servicios" id="" class="elegirServicios">
+            <option value="recojido"> recojido con arreglo</option>
+            <option value="trenza"> trenza cosida</option>
+            <option value="semirecojido"> semirecojido </option>
+            <option value="rulos"> rulos permamentes </option>
+          </select>    
+          <label for="modal-email" class="form-label justify-content-center text-center"> Ingresá tu mail y nos pondremos en contacto para coordinar la visita:</label>
+            <input type="email" name="form-control" id="modal-email" placeholder="example@mail.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn botonEnviar"> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- footer -->
+    <footer class="footerContacto container-fluid pt-2" id="infoContacto">
+        <a href=""> <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1657050325/proyecto-beautyhome/punta-de-flecha-hacia-arriba_zixm49.png" alt="icono flecha" class="flechaFooter btn-scrolltop" id="btn_scrolltop"> </a>
+        <h2 class="col-xs-12 tituloFooter d-flex justify-content-center py-2 animate__animated animate__headShake">Tenes alguna duda? Contactános!</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-4 col-md-5 col-xs-12 align-items-strech"> 
+                <form action="#" method="get" class="d-flex flex-column justify-content-between cajaFormulario mx-5 " >
+                    <input type="text" placeholder="nombre completo" name="nombre-completo"  class="textoFantasma">
+                    <input type="email" placeholder="example@gmial.com" class="textoFantasma">
+                    <textarea name="comentario" placeholder="escribínos tu comentario!" id="" cols="30" rows="8" class="textoFantasma"></textarea>
+                    <input type="submit" class="botonSubmit " value="ENVIAR">
+                    <label for="">
+                        <input type="checkbox">
+                        <span>Suscribirme al newsletter</span>
+                    </label>
+                </form>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 cajaContacto1 footerContacto d-flex flex-column align-items-center">
+                 <div class="d-flex flex-row justify-content-center align-items-center">
+                    <div class="iconosRedes">
+                        <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513298/proyecto-beautyhome/facebook_upt5tg.png" alt="logo Facebook" class="icono1">    
+                        <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513303/proyecto-beautyhome/instagram_g4hxjc.png" alt="logo Instagram" class="icono1">    
+                        <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513303/proyecto-beautyhome/whatsapp_wpahic.png" alt="logo Whatsapp" class="icono1">    
+                        <img src="https://res.cloudinary.com/dqsphdqv5/image/upload/v1656513298/proyecto-beautyhome/email_q7hez7.png" alt="logo Mail" class="icono1">        
+                    </div>
+                    <ul class="mt-1">  
+                        <li>Facebook: Beauty Home Official</li>
+                        <li>Instagram: @Beautyhome_</li>
+                        <li>Whatsapp: +54 1512345678</li>
+                        <li>Mail: beautyhome@clientes.com.ar</li>            
+                    </ul>
+                    
+                    </div> 
+                        <h3 class="tituloHorarios">HORARIOS DE ATENCIÓN</h3>
+                        <ol class="horarios pl-0">
+                            <li>Lunes a Viernes- 9 a 12pm y 14 a 19pm</li>
+                            <li>Sábados- 9 a 12pm</li>
+                        </ol>
+                    </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../js/WOW.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script>
+        const btn_scrolltop = document.getElementById("btn_scrolltop")
+          btn_scrolltop.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+          })
+    
+        window.onscroll = () => {
+          add_btn_scrolltop()
+        }
+    
+      </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.navbar {
+  background-color: $colorSecundario !important;
+  z-index: 3;
+  width: 100vw;
+
+  a {
+    text-decoration: none;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
+
+  li a:hover {
+    color: $colorSecundario;
+    transition: all 0.3s;
+    background-color: $colorPrincipal;
+    text-shadow: none;
+  }
+}
+
+.nav {
+  &-item {
+    &--active {
+      background-color: $colorPrincipal;
+      color: $colorSecundario;
+      border-radius: 10px;
+      a {
+        text-shadow: none;
+        color: black;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.navbar-brand:hover {
+  color: $colorPrincipal;
+}
+
+.animate__slideInRight {
+  --animate-duration: 3s;
+}
+
+.animate__heartBeat {
+  --animate-duration: 10s;
+}

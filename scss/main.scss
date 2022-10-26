@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: "Raleway";
+  }
+
+@import './variables/colores';
+@import './variables/mixin';
+@import './variables/extend';
+
+@import './secciones/index';
+@import './secciones/quienes-somos';
+@import './secciones/mision-y-vision';
+@import './secciones/servicios';
+@import './secciones/header';
+@import './secciones/footer';
+
+html{
+  scroll-behavior: smooth;
+}

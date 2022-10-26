@@ -1,0 +1,42 @@
+.tituloServicios {
+  background-color: $colorPrincipal;
+}
+
+.contenedorServicios {
+  width: 30vw;
+}
+
+.fotoServicios {
+  filter: drop-shadow(15px 15px 20px #705f47);
+  border-radius: 5%;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    filter: grayscale(100%);
+    transform: scale(0.9);
+    transition: all 0.3s;
+  }
+}
+
+.elegirServicios {
+  border-radius: 20px;
+}
+
+.form-label {
+  margin-top: 10px;
+}
+
+.botonEnviar {
+  background-color: black;
+  color: white;
+  &:hover {
+    background-color: $colorPrincipal;
+    color: black;
+    transition: all 0.3s;
+  }
+}
+
+.modal-header {
+  background-color: $colorPrincipal;
+}
