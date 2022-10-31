@@ -1,9 +1,9 @@
 [
-    {"id":"1", "nombre" :"Jabón exfoliante", "precio": 550,  "imagen": "../img/jabon-exfoliante.png"},
-    {"id":"2", "nombre" :"Aceite de cutículas", "precio": 400, "imagen": "../img/aceite-cuticulas.png"},
-    {"id":"3", "nombre" :"Rimmel extra volumen", "precio": 799, "imagen": "../img/rimel-volumen.png"},
-    {"id":"4", "nombre" :"Bálsamo labial", "precio": 1200, "imagen": "../img/balsamo-labial.png"},
-    {"id":"5", "nombre" :"Mascarilla Facial", "precio": 370, "imagen": "../img/mascarilla-facial.jpg"},
-    {"id":"6", "nombre" :"Perfume floral", "precio": 1500, "imagen": "../img/perfume-natural.jpg"}
+    {"id":"1", "nombre" :"Jabón exfoliante", "precio": 550,  "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255294/proyecto-beautyhome/jabon-exfoliante_qqnijc.png"},
+    {"id":"2", "nombre" :"Aceite de cutículas", "precio": 400, "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255261/proyecto-beautyhome/aceite-cuticulas_nhncpp.png"},
+    {"id":"3", "nombre" :"Rimmel extra volumen", "precio": 799, "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255295/proyecto-beautyhome/rimel-volumen_tiuagl.png"},
+    {"id":"4", "nombre" :"Bálsamo labial", "precio": 1200, "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255294/proyecto-beautyhome/balsamo-labial_xksssj.png"},
+    {"id":"5", "nombre" :"Mascarilla Facial", "precio": 370, "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255294/proyecto-beautyhome/mascarilla-facial_llziys.jpg"},
+    {"id":"6", "nombre" :"Perfume floral", "precio": 1500, "imagen": "https://res.cloudinary.com/dqsphdqv5/image/upload/v1667255294/proyecto-beautyhome/perfume-natural_flkz6l.jpg"}
 
 ]
