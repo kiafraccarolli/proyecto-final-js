@@ -1,4 +1,5 @@
 const btn = document.getElementById('button');
+const btn_scrolltop = document.getElementById("btn_scrolltop")
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
@@ -31,11 +32,6 @@ btn.addEventListener("click", () => {
 
   });
 
-const btn_scrolltop = document.getElementById("btn_scrolltop")
 btn_scrolltop.addEventListener('click', () => {
 window.scrollTo(0, 0)
 })
-
-window.onscroll = () => {
-  add_btn_scrolltop()
-}
